@@ -23,7 +23,7 @@
             <a href="#"><img src="tt.png" alt=""></a>
         </div>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="createuser.php">Create a User</a></li>
             <li><a href="customer.php">View Customers</a></li>
             <li><a href="transfermoney.php">Transfer Money</a></li>
