@@ -1,0 +1,86 @@
+body {
+    background: #f7f1ee;
+  }
+
+  h2 {
+    font-style: "Calibri";
+    font-weight: 0 ;
+    color: #05386B;
+  }
+
+  .ml-2 {
+    margin-left: 7rem !important;
+  }
+
+  .shadow {
+    box-shadow: 0px 0px 8px;
+
+  }
+
+  .form-container {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #495463;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .myform {
+    padding: 0 10px 0 15px;
+  }
+
+  .form-control {
+    border: 1px solid #0D859B;
+    border-radius: 2px;
+    color: #0D859B;
+    letter-spacing: 1p;
+    margin-bottom: 20px;
+  }
+
+  .form-control:focus {
+    border: 1px solid #0D859B;
+    border-radius: 2px;
+    color: #0D859B;
+     letter-spacing: 1p;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background-color: #0D859B !important;
+    height: 130%;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited {
+    background-color: #D1E8D2 !important;
+    color: #495463;
+    height: 130%;
+
+  }
+
+  .ff {
+    font-family: poppins;
+  }
+
+  label {
+    color: #C5CBE3;
+  }
+
+  .fa-user {
+    color: #ffffff;
+  }
+
+  .fa-envelope {
+    color: #ffffff;
+
+  }
+
+  .fa-wallet {
+    color: #ffffff;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #0D859B !important;
+  }

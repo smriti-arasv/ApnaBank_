@@ -1,0 +1,153 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables
+:root{
+    --navbar-height: 59px;
+} */
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+.logo{
+    margin: 0 px 24px;
+}
+
+.logo img{
+    height: 69px;
+    margin: 3px 6px;
+    
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home h1{
+    color:rgb(69, 19, 248);
+    font-weight: bolder;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px 0px 5px;
+    text-shadow: purple;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('ii.jpg') no-repeat center center/cover;
+    height: 1042px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+home .bank img{
+    border-radius: 50%;
+}
+/* Features Section */
+#features{
+    margin: 34px;
+    display: flex;
+}
+#features .box { 
+    
+    padding: 0 ;
+    margin: 5px 80px;
+    border-radius: 28px;
+    background-color: rgb(241, 122, 148);
+    
+    margin-bottom: 20px;
+}
+
+
+
+#features .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+} 
+#features .box button{
+    padding: 6px 30px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    cursor:pointer;
+}
+
+#features .box button:hover{
+    background-color: rgb(247, 21, 21);
+    
+}
+#features .box button a{
+    text-decoration: none;
+    color: white;
+}
+#features .box button a:hover{
+    color: chartreuse;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
